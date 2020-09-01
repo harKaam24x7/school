@@ -1,0 +1,10 @@
+npm install aos --save
+npm install --save bootstrap
+npm install --save jquery
+npm install --save font-awesome angular-font-awesome
+
+
+
+
+"./node_modules/font-awesome/css/font-awesome.min.css"
+"./node_modules/angular-font-awesome/dist/angular-font-awesome.js"
