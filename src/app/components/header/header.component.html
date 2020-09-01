@@ -16,11 +16,11 @@
 		<div class="navLinks">
 			<div class="links" (click)="navBarToggle()"><b>   ✗ close</b></div>
 			<div class="hr"></div>
-			<div class="links" [routerLink]="['/home']">Home</div>
-			<div class="links" [routerLink]="['/about']">About Us</div>
-			<div class="links">Gallery</div>
-			<div class="links">Achievments</div>
-			<div class="links">Contact Us</div>
+			<div class="links" (click)="navBarToggle()" [routerLink]="['/home']">Home</div>
+			<div class="links" (click)="navBarToggle()" [routerLink]="['/about']">About Us</div>
+			<div class="links" (click)="navBarToggle()">Gallery</div>
+			<div class="links" (click)="navBarToggle()">Achievments</div>
+			<div class="links" (click)="navBarToggle()">Contact Us</div>
 		</div>
 	</div>
 	<div class="section2" (click)="navBarToggle()"></div>
