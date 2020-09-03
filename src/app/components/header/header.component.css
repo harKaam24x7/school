@@ -48,7 +48,7 @@
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	z-index: 1000;
+	z-index: 2005;
 }
 
 
@@ -125,6 +125,16 @@
 	width: 60%;
 	margin: 8px;
 	margin-left: -10px;
+}
+
+.hrb {
+	height: 2px;
+	background-color: #0c3562;
+	width: 95%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .navLinks .links:hover {

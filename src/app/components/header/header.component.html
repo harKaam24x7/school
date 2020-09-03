@@ -10,6 +10,7 @@
 		<b>Contact No. : </b>(+91) 1234567890
 	</div>
 </div>
+<div class="hrb"></div>
 
 <div *ngIf="navBar" class="navBar">
 	<div class="section1">
@@ -18,7 +19,8 @@
 			<div class="hr"></div>
 			<div class="links" (click)="navBarToggle()" [routerLink]="['/home']">Home</div>
 			<div class="links" (click)="navBarToggle()" [routerLink]="['/about']">About Us</div>
-			<div class="links" (click)="navBarToggle()">Gallery</div>
+			<div class="links" (click)="navBarToggle()" [routerLink]="['/gallery']">Image Gallery</div>
+			<div class="links" (click)="navBarToggle()" [routerLink]="['/video']">Video Gallery</div>
 			<div class="links" (click)="navBarToggle()">Achievments</div>
 			<div class="links" (click)="navBarToggle()">Contact Us</div>
 		</div>
